@@ -1,18 +1,13 @@
-:root {
-    --gap-scale-factor: 250;
-}
-
-html, body {
+html,
+body {
     height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin: 0;
     padding: 75px 0;
@@ -32,11 +27,6 @@ body {
     font-weight: bold;
 }
 
-.container {
-    max-width: 100%;
-    margin: 20px auto 0 auto;
-}
-
 #togepi-gif {
     width: 500px;
     height: 400px;
@@ -50,8 +40,7 @@ h1 {
 
 .btn-container {
     display: flex;
-    justify-content: center;
-    gap: 75px;
+    gap: 32px;
 }
 
 button {
