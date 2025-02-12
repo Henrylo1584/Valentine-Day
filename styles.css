@@ -35,7 +35,8 @@ body {
 
 #togepi-gif {
     width: 500px;
-    height: 400px;
+    max-width: 100%;
+    aspect-ratio: 5/4;
     object-fit: cover;
     border-radius: 20px;
     box-shadow: 0 0 32px -16px black;
@@ -80,4 +81,4 @@ button:hover {
 #no-btn {
     color: white;
     background-color: #db4e4e;
-}  
+}
