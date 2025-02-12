@@ -16,8 +16,8 @@ body {
     align-items: center;
     text-align: center;
     margin: 0;
-    padding: 75px 0;
-    background: linear-gradient(#ffffff, #f9d6d6);
+    padding: 64px;
+    background: linear-gradient(#ffffff, #e2aacd);
     font-family: "Steph", sans-serif;
 }
 
@@ -37,6 +37,10 @@ body {
     width: 500px;
     height: 400px;
     object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 32px -16px black;
+    outline: 8px solid #c4558580;
+    outline-offset: -8px;
 }
 
 h1 {
@@ -51,6 +55,7 @@ h1 {
 
 button {
     border-radius: 8px;
+    font-family: Steph, sans-serif;
     min-width: 100px;
     max-width: 550px;
     border: none;
@@ -59,7 +64,7 @@ button {
     white-space: nowrap;
     font-size: 1.3rem;
     font-weight: 600;
-    transition: transform 0.1s ease;
+    transition: 0.1s ease;
 }
 
 button:hover {
